@@ -1,0 +1,106 @@
+.{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width:100%;
+    background-image: url(yt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.main-form{
+    position:relative;
+    width: 500px;
+    height: 700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid white;
+    border-radius: 75px;
+
+}
+h2{
+    font-size: 2.1em;
+    color:white;
+    text-align:center;
+    padding-top: 10px;
+}
+.input1{
+    position: relative;
+    margin: 30px 0;
+    width:320px;
+    border-bottom: 2px solid white;
+}
+.input1 label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    color:white;
+    font-size:1em;
+    pointer-events: noone;
+    transition:0.5s;
+    border: none;
+    font-weight: 300;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top:-10px;
+}
+.input1 input{
+    width:100%;
+    height:60%;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    font-size:1em;
+    padding:0 38px o 6px;
+    color:white;
+}
+.input1 ion-icon{
+    position:absolute;
+    color:white;
+    font-size: 1.3em;
+    top:-5px;
+    right:8px;
+}
+/* 
+.submit{
+    width:50%;
+    height: 30px;
+    background-color:;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-size: 1em;
+    font-weight: 500;
+    border: 25px;
+    margin-left: 50px;
+    
+    
+
+} */
+.da{
+    margin:24 px;
+    padding: 10px;
+   }
+   .button {
+	
+	background-color: #f10606;
+	color: #fff;
+	padding: 10px 20px;
+border-color: #f10606;
+	border-radius: 5px;
+	margin-top: 20px;
+	top:-15px;
+	right: -256px;
+	position: relative;
+}

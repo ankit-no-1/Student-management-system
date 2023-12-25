@@ -1,0 +1,29 @@
+.ad{
+    position:relative;
+    top:0px;
+    right: 0px;
+
+
+
+   
+    padding: 10px;
+    
+    
+}
+
+.tc{
+    position:relative;
+    top:70px;
+    right: 0px;
+    width:70px;
+    text-align: center;
+    
+}
+.no{
+    position:relative;
+    top:-411px;
+    right: 144px;
+    text-align: end;
+    padding: 10px;
+
+}

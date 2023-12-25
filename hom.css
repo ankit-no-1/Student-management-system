@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-image: url("tests.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100%;
+}
+
+header {
+    background-color: #e9b60d;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+
+
+/* Add the following lines to create the colorful lines */
+nav li::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Adjust the thickness of the line */
+    background: red; /* Adjust the color of the line */
+    bottom: -5px; /* Adjust the position of the line (below the text) */
+    left: 0;
+    transform: scaleX(0); /* Initially, make it invisible */
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+nav li:hover::before {
+    transform: scaleX(1); /* Make the line visible and expand when hovering */
+    transform-origin: left;
+}
+
+main {
+    margin: 21px;
+    position: relative;
+    width: 100px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #f10606;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    top: -310px;
+    right: -1300px;
+    position: relative;
+}
+
+.button:hover {
+    background-color: #ccc;
+    color: #333;
+}
+
+.h2 {
+    font-weight: 500px;
+    color: #00ff30ad;
+}
+
+.detail {
+    position: relative;
+    top: 96px;
+    right: -400px;
+    color: #f03d08;
+}
+
+h3 {
+    color: red;
+    font-size: 33px;
+}
+
+.ts {
+    position: relative;
+    top: 12px;
+}
+
+.hh {
+    color: #EFEB;
+    top: 18px;
+    right: -19px;
+    position: relative;
+    font-size: 36px;
+}
+/* Existing CSS code */
+
+/* Add the following lines for the hover effect */
+nav:hover::before,
+nav:hover::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Adjust the thickness of the lines */
+    background: blue; /* Adjust the color of the lines */
+    bottom: -5px; /* Adjust the position of the lines (below the navbar) */
+    left: 0;
+    transform: scaleX(0); /* Initially, make them invisible */
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+nav:hover::after {
+    transform-origin: left;
+}
+
+/* Existing CSS code */

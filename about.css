@@ -1,0 +1,27 @@
+body{
+    background-image: url("about.jpg");
+    background-position: cover;
+    
+}
+.tt{
+    
+    position:relative;
+    top:70px;
+}
+h1{
+    font:bold;
+    text-align: center;
+    color: blue;
+    font-size: 70px;
+}
+.team{
+    position: relative;
+    top:130px;
+    text-align: end;
+    right: 150px;
+    color: red;
+    font-size: large;
+}
+u{
+    color:red;
+}

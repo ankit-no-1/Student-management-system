@@ -1,0 +1,88 @@
+body{
+    
+
+    background-size: 100%;
+    
+    position: relative;
+    width:74vw;
+    height:100vh;
+    background-image: url("notes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.cse{
+    position:relative;
+    padding-top: 10px;
+padding-left: 10px;
+
+}
+.im{
+    height: 180px;
+    width:251px ;
+    top:0px;
+    right:-353px;
+    position:relative;
+}
+.c{
+    font-size: 43px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #19c659;;
+    position: relative;
+    top: -151px;
+    right: -228px;
+}
+.ece{
+    position:relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    left:0px;
+    top:0px;
+
+}
+.im{
+    height: 180px;
+    width:251px ;
+}
+.e{
+    font-size: 43px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #19c659;;
+position: relative;
+    top: -151px;
+    right: -228px;
+}
+.cses{
+    height: 157px;
+    width: 225px;
+    top:10px;
+    right:20px;
+}
+.mech{
+    position:relative;
+    width:337px;
+    height:203px;
+    top:10px;
+    right:10px;
+}
+.civ{
+    position:relative;
+    width:310px;
+    height:203px;
+    top:-50px;
+    right:-500px;
+}
+.bcaq{
+    position:relative;
+    width:310px;
+    height:203px;
+    top:-800px;
+    right:-630px;
+}
+.bcomq{
+    position:relative;
+    width:310px;
+    height:203px;
+    top:-688px;
+    right:-750px;
+}

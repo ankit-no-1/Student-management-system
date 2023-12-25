@@ -1,0 +1,13 @@
+body{
+    background-image: url("tyr.jpg");
+    background-repeat: no-repeat;
+}
+table{
+    position: relative;
+    right: -310px;
+    
+}
+table,th,tr{
+    border-spacing: 8px;
+    padding: -10px;
+}

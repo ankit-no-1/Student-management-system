@@ -1,0 +1,42 @@
+body{
+    background-image: url("cseph.jpg");
+
+    position:relative;
+  color:white;
+    
+    background-repeat: no-repeat;
+width: 100%;
+
+
+height: 100%;
+padding-top: 400px;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+table,th,td {
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 36px;
+    top:-170px;
+  }
+  .search-container{
+    position:relative;
+    top:-340px;
+    right:-1200px;
+    border: none;
+    height: 25px;
+    width: 180px;
+  }
+ .search-button{
+  position: relative;
+  background-color: green;
+  top:4px;
+  border-radius: none;
+  border: none;
+
+ }

@@ -1,0 +1,58 @@
+body{
+    background-image: url("yt.jpg");
+    background-repeat: no-repeat;
+    position:relative;
+    color:white;
+      
+      
+ 
+  
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.detail{
+  position:relative;
+  background-position: center;
+  margin:auto;
+  border: none;
+  top:-210px;
+  border-left: 120px;
+  margin-left: 100px;
+margin-left: 550px;
+font-size: 20px;
+}
+.see {
+  border: 2px solid white;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+ color:solid white;
+ 
+  right:250px;
+  position:relative;
+  border-radius: 10px;
+  top:350px;
+  
+  font-size: 25px;
+  text-align: left;
+ 
+}
+h3{
+  right:-180px;
+  position: relative;
+  
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 2px 2px #333;
+  transform: skew(-10deg);
+}
+.ra{
+  text-shadow: 1px 1px #333;
+  transform: skew(-10deg);
+}
+
